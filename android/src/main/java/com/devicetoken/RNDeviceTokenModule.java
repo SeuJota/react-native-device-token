@@ -14,6 +14,7 @@ public class RNDeviceTokenModule extends ReactContextBaseJavaModule {
     this.reactContext = reactContext;
   }
 
+  @ReactMethod
   public String getToken(){
     return "TOKEN";
   }
