@@ -15,7 +15,7 @@ public class RNDeviceTokenModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public String getToken(Callback cb){
+  public void getToken(Callback cb){
     try{
       String token = "TOKEN";
       cb.invoke(token);
